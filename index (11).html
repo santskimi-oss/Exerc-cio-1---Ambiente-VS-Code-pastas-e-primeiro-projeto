@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serviços com Flexbox</title>
+  <link rel="stylesheet" href="estilo.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Central de serviços</h1>
+    <button id="alternarDirecao" type="button" aria-pressed="false" aria-controls="ListaServicos">Alternar direção</button>
+    <p id="statusLayout" aria-live="polite">Layout em linha.</p>
+   </header>
+   <main id="conteudo">
+     <section id="servicos">
+       <h2>Serviços</h2>
+       <div id="ListaServicos" class="Lista-servicos">
+         <article class="cartao-servico"><h3>Sites</h3><p>Interfaces acessíveis.</p></article>
+         <article class="cartao-servico"><h3>Landing pages</h3><p>Páginas objetivas.</p></article>
+         <article class="cartao-servico"><h3>Manutenção</h3><p>Ajustes contínuos.</p></article>
+       </div>
+     </section>
+     <section id="indicadores"><h2>Indicadores</h2><p>3 serviços - atendimento ágil.</p></section>
+     <aside id="orientacoes"><h2>Orinetações</h2><p>Use Flexbox para distribuir e alinhar os cartões.</p></aside>
+   </main>
+   <footer>FE05 - Flexbox</footer>
+</body>
+</html>
+ 

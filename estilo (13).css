@@ -1,0 +1,13 @@
+* { box-sizing:border-box; }
+body { margin:0; font-family:system-ui,sans-serif; background:#eef2f7; color:#172033; }
+header, #dashboard, footer { width:min(1100px,94%); margin:auto; }
+header { padding:1.5rem 0; }
+#dashboard { display:grid; grid-template-columns:2fr 1fr; grid-template-areas:"resumo resumo" "tarefas agenda" "equipe alertas"; gap:1rem; }
+#resumo{grid-area:resumo} #tarefas{grid-area:tarefas} #agenda{grid-area:agenda} #equipe{grid-area:equipe} #alertas{grid-area:alertas}
+section, aside { min-width:0; padding:1rem; background:white; border-radius:12px; }
+.indicadores { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+.indicador { display:grid; gap:.25rem; padding:.8rem; background:#f8fafc; border-radius:10px; }
+#dashboard.compacto section, #dashboard.compacto aside { padding:.65rem; } 
+@media(max-width:760px){ #dashboard{grid-template-columns:1fr;grid-template-areas:"resumo" "tarefas" "agenda" "equipe" "alertas";} }
+
+

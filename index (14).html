@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard responsivo</h1>
+  <link rel="stylesheet" href="estilo.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Dashboard operacional</h1>
+    <button id="alternarDensidade" type="button" aria-pressed="false" aria-controls="dashboard">Ativar modo compacto</button>
+    <p id="statusLayout" aria-live="polite">Densidade confortável.</p>
+  </header>
+
+  <main id="dashboard">
+    <section id="resumo">
+      <h2>Resumo</h2>
+      <div class="indicadores">
+        <article class="indicador"><strong>12</strong><span>Tarefas</span></article>
+        <article class="indicador"><strong>4</strong><span>Reuniões</span></article>
+        <article class="indicador"><strong3></strong><span>Alertas</span></article>
+      </div>
+    </section>
+    <section id="tarefas"><h2>Tarefas</h2><p>Revisar projeto e publicar versão.</p></section>
+    <section id="agenda"><h2>Agenda</h2><p>14h - alinhamento da equipe.</p></section>
+    <section id="equipe"><h2>Equipe</h2><p>Front-End, QA e Produto.</p></section>
+    <aside id="alertas"><h2>Alertas</h2><p>Há uma entrega próxima.</p></aside>
+  </main>
+  <footer>FE06 - Grid responsivo</footer>
+</body>
+</html>
