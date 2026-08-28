@@ -1,4 +1,4 @@
-# Exerc-cio-1---Ambiente-VS-Code-pastas-e-primeiro-projeto
+
 # Modo-Aluno
 
 # FE01 - Meu primeiro projeto Front-End
